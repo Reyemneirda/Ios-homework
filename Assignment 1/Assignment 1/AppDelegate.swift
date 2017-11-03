@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  Assignment1
+//  Assignment 1
 //
-//  Created by Adrien Meyer on 01/11/2017.
+//  Created by Adrien Meyer on 03/11/2017.
 //  Copyright © 2017 Developer.Institute. All rights reserved.
 //
 

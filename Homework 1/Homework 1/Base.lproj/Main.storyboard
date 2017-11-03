@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Homework_1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bhp-21-jjI">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="1000" verticalHuggingPriority="1000" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="749" ambiguous="YES" image="face" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PG9-5C-tLy">
+                                        <rect key="frame" x="144" y="28" width="126" height="139"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nXf-lw-F3s">
+                                        <rect key="frame" x="83" y="657" width="249" height="71"/>
+                                        <state key="normal" title="Message" image="button">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Adrien Meyer" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="tsc-Wl-ef9">
+                                        <rect key="frame" x="143" y="168" width="128" height="26.666666666666657"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                        <variation key="heightClass=compact-widthClass=compact">
+                                            <fontDescription key="fontDescription" type="system" pointSize="34"/>
+                                        </variation>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" ambiguous="YES" preservesSuperviewLayoutMargins="YES" text="Message" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XiH-cg-ktY">
+                                        <rect key="frame" x="162" y="679.66666666666663" width="90" height="26.333333333333371"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                        <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="highlightedColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" distribution="fillEqually" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="w5M-rT-Sfn">
+                                        <rect key="frame" x="8" y="276" width="149" height="184"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" ambiguous="YES" text="Phone Number" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nnF-uT-FZe">
+                                                <rect key="frame" x="0.0" y="0.0" width="127.66666666666667" height="23"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                                <nil key="textColor"/>
+                                                <color key="highlightedColor" cocoaTouchSystemColor="lightTextColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" ambiguous="YES" text="050-2276945" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aSu-tv-HCS">
+                                                <rect key="frame" x="0.0" y="23.000000000000014" width="85.666666666666671" height="23"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" ambiguous="YES" text="Gender" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EBs-c3-OaF">
+                                                <rect key="frame" x="0.0" y="46.000000000000014" width="63" height="23"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                                <nil key="textColor"/>
+                                                <color key="highlightedColor" cocoaTouchSystemColor="lightTextColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" ambiguous="YES" text="Male" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2EA-b4-0xg">
+                                                <rect key="frame" x="0.0" y="69.000000000000014" width="29" height="23"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" ambiguous="YES" text="Email" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f0W-ku-JMd">
+                                                <rect key="frame" x="0.0" y="92" width="45.666666666666664" height="23"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                                <nil key="textColor"/>
+                                                <color key="highlightedColor" cocoaTouchSystemColor="lightTextColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" ambiguous="YES" text="reyemneirda@gmail.com" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="clC-LH-r9I">
+                                                <rect key="frame" x="0.0" y="115.00000000000001" width="149" height="22.999999999999986"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" ambiguous="YES" text="Adress" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LjW-z1-vcR">
+                                                <rect key="frame" x="0.0" y="138" width="58.666666666666664" height="23"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                                <nil key="textColor"/>
+                                                <color key="highlightedColor" cocoaTouchSystemColor="lightTextColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="253" horizontalCompressionResistancePriority="1000" verticalCompressionResistancePriority="1000" ambiguous="YES" text="Shalva 8, herzliya" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zzB-4U-X8R">
+                                                <rect key="frame" x="0.0" y="161" width="105.66666666666667" height="23"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0" green="1" blue="0.061501125429999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="9Qi-SD-vtn" firstAttribute="trailing" secondItem="tsc-Wl-ef9" secondAttribute="trailing" constant="143" id="D6N-9L-UTj"/>
+                                    <constraint firstItem="nXf-lw-F3s" firstAttribute="leading" secondItem="9Qi-SD-vtn" secondAttribute="leading" constant="83" id="Luq-4e-Rrj"/>
+                                    <constraint firstItem="tsc-Wl-ef9" firstAttribute="top" secondItem="PG9-5C-tLy" secondAttribute="bottom" constant="1" id="M1B-6F-4gk"/>
+                                    <constraint firstItem="PG9-5C-tLy" firstAttribute="top" secondItem="9Qi-SD-vtn" secondAttribute="top" constant="8" id="MGC-aG-Cfy"/>
+                                    <constraint firstItem="9Qi-SD-vtn" firstAttribute="trailing" secondItem="nXf-lw-F3s" secondAttribute="trailing" constant="82" id="Qru-jv-1x6"/>
+                                    <constraint firstItem="XiH-cg-ktY" firstAttribute="top" secondItem="tsc-Wl-ef9" secondAttribute="bottom" constant="485" id="RIf-bg-qlf"/>
+                                    <constraint firstItem="9Qi-SD-vtn" firstAttribute="trailing" secondItem="PG9-5C-tLy" secondAttribute="trailing" constant="144" id="S2b-fF-UBd"/>
+                                    <constraint firstItem="9Qi-SD-vtn" firstAttribute="bottom" secondItem="XiH-cg-ktY" secondAttribute="bottom" constant="30" id="TkR-c5-J0S"/>
+                                    <constraint firstItem="tsc-Wl-ef9" firstAttribute="leading" secondItem="9Qi-SD-vtn" secondAttribute="leading" constant="143" id="U4J-Lk-68A"/>
+                                    <constraint firstItem="PG9-5C-tLy" firstAttribute="leading" secondItem="9Qi-SD-vtn" secondAttribute="leading" constant="144" id="Uui-CS-WKR"/>
+                                    <constraint firstItem="nXf-lw-F3s" firstAttribute="top" secondItem="zzB-4U-X8R" secondAttribute="bottom" constant="197" id="Vdh-hs-usb"/>
+                                    <constraint firstItem="9Qi-SD-vtn" firstAttribute="trailing" secondItem="w5M-rT-Sfn" secondAttribute="trailing" constant="257" id="Y7u-Ye-2EA"/>
+                                    <constraint firstItem="9Qi-SD-vtn" firstAttribute="trailing" secondItem="XiH-cg-ktY" secondAttribute="trailing" constant="162" id="c6C-im-76U"/>
+                                    <constraint firstItem="nXf-lw-F3s" firstAttribute="leading" secondItem="w5M-rT-Sfn" secondAttribute="trailing" constant="-74" id="gJf-NL-vr4"/>
+                                    <constraint firstItem="9Qi-SD-vtn" firstAttribute="bottom" secondItem="nXf-lw-F3s" secondAttribute="bottom" constant="8" id="gwR-3r-3A2"/>
+                                    <constraint firstItem="w5M-rT-Sfn" firstAttribute="leading" secondItem="9Qi-SD-vtn" secondAttribute="leading" constant="8" id="rHM-vH-nvG"/>
+                                    <constraint firstItem="XiH-cg-ktY" firstAttribute="leading" secondItem="9Qi-SD-vtn" secondAttribute="leading" constant="162" id="w0H-3I-8Xn"/>
+                                </constraints>
+                                <viewLayoutGuide key="safeArea" id="9Qi-SD-vtn"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <rect key="contentStretch" x="0.0" y="0.0" width="0.90000000000000002" height="0.75"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="134" y="132"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="button" width="960" height="480"/>
+        <image name="face" width="125" height="139"/>
+    </resources>
+</document>
